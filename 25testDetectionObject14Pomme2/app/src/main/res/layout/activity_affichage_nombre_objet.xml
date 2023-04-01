@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:verticalScrollbarPosition="right"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Articles"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de 7up"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7up3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombre7up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlus7up"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoin7up"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrix7up"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutAlexandreAbel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre Alexandre Abel"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutAlexandreAbel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreAlexandreAbel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusAlexandreAbel"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinAlexandreAbel"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixAlexandreAbel"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutNesquikChocolat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre Nesquik Au Chocolat"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutNesquikChocolat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreNesquikChocolat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusNesquikChocolat"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinNesquikChocolat"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixNesquikChocolat"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutNesquikFraise"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre Nesquik Au Fraise"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutNesquikFraise1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreNesquikFraise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusNesquikFraise"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinNesquikFraise"
+                        android:layout_width="11dp"
+                        android:layout_height="33dp"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixNesquikFraise"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutOignonEspagnol"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Oignon Espagnol"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutCerise1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreOignonEspagnol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusOignonEspagnol"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinOignonEspagnol"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixOignonEspagnol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutChocolatSkor"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Chocolat Skor"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutChocolatSkor1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreChocolatSkor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusChocolatSkor"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinChocolatSkor"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixChocolatSkor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCoffeeCrisp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Coffee Crisp"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutCoffeeCrisp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreCoffeeCrisp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusCoffeeCrisp"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinCoffeeCrisp"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixCoffeeCrisp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDeodorantAxe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Deodorant Axe"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutDeodorantAxe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreDeodorantAxe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusDeodorantAxe"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinDeodorantAxe"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixDeodorantAxe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMoutarde"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Moutarde"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutMoutarde1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreMoutarde"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusMoutarde"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinMoutarde"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixMoutarde"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutOrange"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre d'Orange"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutOrange1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreOrange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusOrange"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinOrange"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixOrange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutPomme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Pomme"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutPomme1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tbNombrePomme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusPomme"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinPomme"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixPomme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSauceHotChicken"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Sauce Hot Chicken"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutSauceHotChicken1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreSauceHotChicken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusSauceHotChicken"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-20dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinSauceHotChicken"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-15dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixSauceHotChicken"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutThonRioMare"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="nombre de Thon Rio Mare"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutThonRioMare1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tbNombreThonRioMare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <ImageView
+                        android:id="@+id/btPlusThonRioMare"
+                        android:layout_width="11dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:translationX="-30dp"
+                        app:srcCompat="@android:drawable/ic_input_add" />
+
+                    <ImageButton
+                        android:id="@+id/btMoinThonRioMare"
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:translationX="-25dp"
+                        app:srcCompat="@drawable/ic_moin2_foreground" />
+
+                    <TextView
+                        android:id="@+id/tbPrixThonRioMare"
+                        android:layout_width="6dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutTotal"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="148dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:text="Total"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/prixTotalTousArticle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 $"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btPayer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Payer" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
